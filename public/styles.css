@@ -13,11 +13,14 @@ body {
 }
 
 h1 {
-  color: rgb(68, 58, 161);
+  font-family: "Cambria";
+  font-style: italic;
+  font-weight: bold;
+  color: whitesmoke;
   position: relative;
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 70%;
   transform: translateX(-50%);
   white-space: nowrap;
 }
@@ -42,7 +45,7 @@ a.cta {
   color: #fff;
   text-decoration: none;
   left: 50%;
-  bottom: 20%;
+  bottom: 37%;
   transform: translateX(-50%);
   border: 2px solid #fff;
   font-size: 0.75em;
@@ -86,7 +89,7 @@ a.cta:hover:before {
   content: "";
   width: 100%;
   height: 100%;
-  background: rgba(139, 69, 19, 0.5);
+  /* background: rgba(139, 69, 19, 0.5); */
   position: absolute;
 }
 .container .one-half.right {
